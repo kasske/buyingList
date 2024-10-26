@@ -50,6 +50,7 @@ export default function ItemList() {
             onChange={(option) => setSortBy(option.value)}
             defaultValue={sortingOptions[0]}
             options={sortingOptions}
+            isSearchable={false}
           />
         </section>
       ) : null}
